@@ -1,31 +1,32 @@
-.navbar-light
-	.navbar-nav
-		.nav-link
-				color: #007bff
-				-webkit-box-sizing: border-box 
-				-moz-box-sizing: border-box
-				-box-sizing: border-box
-				border-bottom: 3px solid #fff
-				transition: all ease-out 0.1s
-				&:hover
-					display: block
-					border-bottom: 3px solid #007bff
-					transition: all ease-out 0.1s
+@font-face
+	font-family: Fashion Boutique
+	src: url('../fonts/11421.ttf')
 
+@font-face
+	font-family:Cuphead Memphis Medium
+	src: url('../fonts/11613.ttf')
 
-
-
-
-
-
-
-
-
-
-/*медиа запросы*/
-@media screen and (max-width: 1280px)
-  .header__form
-    display: none
-@media screen and (max-width: 550px)
-  .header__logo__img
-    text-align: centr
+.logo__item 
+	font-family: Fashion Boutique, sans-serif
+	font-size: 2.5em
+	font-weight: 600
+.contact__item
+	display: flex
+	i
+		padding-right: 5px
+		
+	div
+		margin-left: 20px
+	a
+		color: #fff
+		i
+			&:hover
+			text-decoration: none
+		&:hover
+			text-decoration: underline
+.logo__container
+	margin-top: 10px
+.search__btn
+	margin-top: 20px
+.time__work
+	margin-top: 20px
